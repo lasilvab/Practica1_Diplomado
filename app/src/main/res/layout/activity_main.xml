@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="silvanet.com.mx.diplomadopractica1.MainActivity">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:text="REGISTRO" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/lbl_nombre" />
+
+    <EditText
+        android:id="@+id/editApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/lbl_apellidos" />
+
+    <EditText
+        android:id="@+id/editEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/lbl_edad" />
+
+    <TextView
+        android:id="@+id/textGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/lbl_genero" />
+
+    <RadioGroup
+        android:id="@+id/generoRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/radioButtonFem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Femenino" />
+
+    <RadioButton
+        android:id="@+id/radioButtonMasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masculino" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/lbl_direccion" />
+
+    <EditText
+        android:id="@+id/editEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/lbl_estado" />
+
+    <EditText
+        android:id="@+id/editMunicipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/lbl_municipio" />
+
+    <EditText
+        android:id="@+id/editCorreo-e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/lbl_correo" />
+
+    <EditText
+        android:id="@+id/editTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/lbl_telefono" />
+
+    <TextView
+        android:id="@+id/textIntereses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/lbl_intereses" />
+
+    <CheckBox
+        android:id="@+id/chkDeportes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deportes" />
+
+    <CheckBox
+        android:id="@+id/chkMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Musica" />
+
+    <CheckBox
+        android:id="@+id/chkPolitica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Politica" />
+
+    <CheckBox
+        android:id="@+id/chkCine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cine" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar" />
+
+</LinearLayout>

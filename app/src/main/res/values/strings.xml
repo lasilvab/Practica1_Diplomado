@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DiplomadoPractica1</string>
+    <string name="lbl_nombre">Nombre</string>
+    <string name="lbl_apellidos">Apellidos</string>
+    <string name="lbl_edad">Edad</string>
+    <string name="lbl_genero">Género</string>
+    <string name="lbl_direccion">Dirección</string>
+    <string name="lbl_estado">Estado</string>
+    <string name="lbl_municipio">Municipio</string>
+    <string name="lbl_correo">Correo-e</string>
+    <string name="lbl_telefono">Teléfono</string>
+    <string name="lbl_intereses">Intereses</string>
+
+</resources>
